@@ -27,6 +27,9 @@ def number_pattern(n):
         return "Argument must be an integer greater than 0."
 
     result = ""
-    for i in range(1, n + 1):
-        result += str(i) + " "
-    return result.strip()
+    for i in range(n):
+        result += f"{i + 1} "
+    return result
+
+
+print(number_pattern(4))
