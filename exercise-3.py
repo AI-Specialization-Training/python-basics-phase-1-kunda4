@@ -25,3 +25,6 @@ def calc_function(num1, num2, operation="add"):
         return num1 ** num2
     else:
         raise ValueError("Invalid operation")
+
+
+print(calc_function(10, 5, "add"))

@@ -8,3 +8,6 @@
 
 def hello_function():
     return "Hello!"
+
+
+hello_function()
